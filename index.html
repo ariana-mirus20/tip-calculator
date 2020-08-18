@@ -9,26 +9,26 @@
   <div id="container" role="main">
     <div role="heading" aria-level="1"><h1>Tip Calculator</h1></div>
     <hr role="horizontal line">
-      <div>
-        <label for="total-bill">Total Bill:</label>
+      <div for="total bill">
+        <label for="total bill amount">Total Bill:</label>
         <input type="text" placeholder="Enter your total bill..." id="bill-total">
       </div>
-      <div>
-        <label for="tip">Tip:</label>
+      <div for="tip">
+        <label for="tip amount">Tip:</label>
         <input type="range" value="0" id="tip-input">
       </div>
-      <div>
+      <div for="bill split">
         <label for="split the bill by number of people">Split (number of people)</label>
         <input type="range" min="1" max="10" value="1" id="split-input">
       </div>
       <hr role="horizontal line">
 
-      <div>
-        <div>
-          <label>New Bill (per person):</label><span>0</span>
+      <div role="secondary">
+        <div for="new bill amount">
+          <label for="new bill amount per person">New Bill (per person):</label><span>0</span>
         </div>
-        <div>
-          <label>Tip Amount (per person):</label><span>0</span>
+        <div for="new tip amount">
+          <label for="new tip amount per person">Tip Amount (per person):</label><span>0</span>
         </div>
       </div>
 
