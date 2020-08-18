@@ -40,4 +40,13 @@ label, input {
   #container {
     opacity: 0.9;
   }
+
+  label, input {
+    display: inline-block;
+    width: 40%;
+  }
+
+  div {
+    line-height: 4em;
+  }
 }
